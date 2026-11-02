@@ -1,0 +1,91 @@
+{
+  "upload_audit": [
+    {
+      "file": "Pasted text(20261101-164319).txt",
+      "season": "2022-23",
+      "rows": 380,
+      "first_date": "2022-08-05",
+      "last_date": "2023-05-28"
+    },
+    {
+      "file": "Pasted text(20261101-165132).txt",
+      "season": "2023-24",
+      "rows": 380,
+      "first_date": "2023-08-11",
+      "last_date": "2024-05-19"
+    },
+    {
+      "file": "Pasted text (2).txt",
+      "season": "2024-25",
+      "rows": 380,
+      "first_date": "2024-08-16",
+      "last_date": "2025-05-25"
+    },
+    {
+      "file": "Pasted text (4).txt",
+      "season": "2025-26",
+      "rows": 380,
+      "first_date": "2025-08-15",
+      "last_date": "2026-05-24"
+    },
+    {
+      "file": "Pasted text (2)(1).txt",
+      "season": "2026-27",
+      "rows": 80,
+      "first_date": "2026-08-21",
+      "last_date": "2026-10-25"
+    }
+  ],
+  "seasons": [
+    "2022-23",
+    "2023-24",
+    "2024-25",
+    "2025-26",
+    "2026-27"
+  ],
+  "matches": 1600,
+  "long_rows": 3200,
+  "train_matches": 1520,
+  "test_matches_uploaded": 80,
+  "test_matches_evaluated": 80,
+  "test_matches_excluded_unseen_teams": 0,
+  "test_season": "2026-27",
+  "mean_total_goals_per_match": 2.945,
+  "home_goals_mean": 1.613125,
+  "away_goals_mean": 1.331875,
+  "train_goal_mean": 1.4769736842105263,
+  "train_goal_variance": 1.593414991080861,
+  "variance_mean_ratio": 1.0788377667897144,
+  "pearson_dispersion": 0.935262950792466,
+  "dispersion_score_test_p_approx": 0.26194620884810416,
+  "negative_binomial_alpha": 0.05337790891775761,
+  "home_irr": 1.2124934669289635,
+  "poisson_aic": 9057.127713323458,
+  "negative_binomial_aic": 9085.798420659667,
+  "best_regularization_alpha": 0.1,
+  "wdl_accuracy": 0.4625,
+  "wdl_log_loss": 1.075722502755211,
+  "always_home_accuracy": 0.3875,
+  "metrics": {
+    "Poisson GLM": {
+      "RMSE": 1.2452675710600545,
+      "MAE": 1.0015860576723854,
+      "Mean Poisson deviance": 1.3043455551636405
+    },
+    "Negative Binomial GLM": {
+      "RMSE": 1.2452068426862326,
+      "MAE": 1.001511120500119,
+      "Mean Poisson deviance": 1.304276552255566
+    },
+    "Training-mean baseline": {
+      "RMSE": 1.2531357828129421,
+      "MAE": 1.034046052631579,
+      "Mean Poisson deviance": 1.3093362957319443
+    },
+    "Linear regression": {
+      "RMSE": 1.2208942503630429,
+      "MAE": 0.9865496916448493,
+      "Mean Poisson deviance": 1.2714615710062918
+    }
+  }
+}
